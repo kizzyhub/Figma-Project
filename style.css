@@ -1,0 +1,13 @@
+
+@keyframes moveBg {
+    0% { background-position: center top; }
+    50% { background-position: center center; }
+    100% { background-position: center bottom; }
+}
+
+.movingBg {
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: moveBg 10s infinite alternate ease-in-out;
+}

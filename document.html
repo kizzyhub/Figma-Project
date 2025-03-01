@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devme Documentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0E0C13] text-white">
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-6" style="animation: moveBackground 10s infinite alternate ease-in-out;">
+        <h1 class="text-xl font-bold text-pink-100">Devme</h1>
+        <div class="flex space-x-6"> <!-- Ensures items are in a row -->
+            <a href="index.html" class="relative text-white text-sm after:block after:w-10 after:h-0.5 
+                after:bg-orange-500 after:scale-x-0 after:transition-transform after:duration-300 
+                hover:after:scale-x-100">Home</a>
+            <a href="document.html" class="relative text-white text-sm after:block after:w-30 after:h-0.5
+                 after:bg-orange-500 after:scale-x-0 after:transition-transform after:duration-300
+                  hover:after:scale-x-100">Documentation</a>
+        </div>
+    </nav>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Hero Section -->
+    <section class="relative flex flex-col items-center text-center py-20 bg-center bg-no-repeat" style="background-image: url('Images/IMG2.png'); 
+    background-size: contain;">
+        <h2 class="relative z-10 text-sm text-gray-300 uppercase tracking-widest">Accelerated</h2>
+        <h1 class="relative z-10 text-4xl md:text-6xl mt-2">Dev me documentation</h1>
+        <p class="relative z-10 text-gray-400 mt-4 max-w-xl">
+            Lorem ipsum dolor sit amet consectetur. Augue varius<br/> arcu vitae imperdiet massa fringilla.
+        </p>
+        <button class="relative z-10 mt-6 px-6 py-3 bg-pink-500 text-white Square font-semibold hover:bg-pink-600">
+            Get started
+        </button>
+    </section>
+
+    <section class="py-16 bg-[#0B0711] text-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <!-- Title Section Aligned to the Right -->
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                <div class="hidden md:block flex-1"></div>
+                <div class="text-right md:w-1/2">
+                    <h2 class="text-3xl">
+                        <span class="text-orange-400 font-bold text-5xl">Batteries</span> Included
+                    </h2>
+                    <p class="text-gray-400 text-2xl">Lorem ipsum dolor sit amet <br/>consectetur.</p>
+                </div>
+            </div>
+    
+            <!-- Features Grid -->
+            <div class="relative p-8 bg-[#1A1325]/50 rounded-xl shadow-lg border border-gray-700">
+                <!-- Small Square (Top-Left) -->
+                <div class="absolute -top-12 -left-32 w-64 h-32 bg-orange-200 rounded-lg opacity-15"></div>
+            
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="flex items-start space-x-4 p-4 hover:bg-[#2A2135] rounded-lg transition-all duration-300">
+                        <i class="fas fa-bell text-orange-400 text-2xl"></i>
+                        <div>
+                            <h3 class="text-orange-400 text-lg">Notification</h3>
+                            <p class="text-gray-400 text-sm ">Build a Laravel admin panel, <br/>customer-facing app, SaaS, or <br/>anything you can imagine.</p>
+                        <!-- Long underline -->
+                        <div class="w-64 h-[2px] bg-gray-600 mt-4"></div>
+                     </div>
+                    </div>
+                    
+            
+                    <div class="flex items-start space-x-4 p-4 hover:bg-[#2A2135] rounded-lg transition-all duration-300">
+                        <i class="fas fa-file-lines text-gray-300 text-2xl"></i>
+                        <div>
+                            <h3 class="text-white text-lg hover:text-orange-400">Form Builder</h3>
+                            <p class="text-gray-400 text-sm">Build a Laravel admin panel,<br/> customer-facing app, SaaS, or <br/>anything you can imagine.</p>
+                        <!-- Long underline -->
+                        <div class="w-64 h-[2px] bg-gray-600 mt-4"></div>
+                        </div>
+                    </div>
+            
+                    <div class="flex items-start space-x-4 p-4 hover:bg-[#2A2135] rounded-lg transition-all duration-300">
+                        <i class="fas fa-table text-gray-300 text-2xl"></i>
+                        <div>
+                            <h3 class="text-white text-lg hover:text-orange-400">Table Builder</h3>
+                            <p class="text-gray-400 text-sm">Build a Laravel admin panel,<br/> customer-facing app, SaaS, or <br/>anything you can imagine.</p>
+                       <!-- Long underline -->
+                       <div class="w-64 h-[2px] bg-gray-600 mt-4"></div>
+                        </div>
+                    </div>
+            
+                    <div class="flex items-start space-x-4 p-4 hover:bg-[#2A2135] rounded-lg transition-all duration-300">
+                        <i class="fas fa-columns text-gray-300 text-2xl"></i>
+                        <div>
+                            <h3 class="text-white text-lg hover:text-orange-400">Panel Builder</h3>
+                            <p class="text-gray-400 text-sm">Build a Laravel admin panel,<br/> customer-facing app, SaaS, or <br/>anything you can imagine.</p>
+                        <!-- Long underline -->
+                        <div class="w-64 h-[2px] bg-gray-600 mt-4"></div>
+                        </div>
+                    </div>
+            
+                    <div class="flex items-start space-x-4 p-4 hover:bg-[#2A2135] rounded-lg transition-all duration-300">
+                        <i class="fas fa-list text-gray-300 text-2xl"></i>
+                        <div>
+                            <h3 class="text-white text-lg hover:text-orange-400">Infolist Builder</h3>
+                            <p class="text-gray-400 text-sm">Build a Laravel admin panel, <br/>customer-facing app, SaaS, or <br/>anything you can imagine.</p>
+                        <!-- Long underline -->
+                        <div class="w-64 h-[2px] bg-gray-600 mt-4"></div>
+                        </div>
+                    </div>
+            
+                    <div class="flex items-start space-x-4 p-4 hover:bg-[#2A2135] rounded-lg transition-all duration-300">
+                        <i class="fas fa-arrows-rotate text-gray-300 text-2xl"></i>
+                        <div>
+                            <h3 class="text-white text-lg hover:text-orange-400">Actions</h3>
+                            <p class="text-gray-400 text-sm">Build a Laravel admin panel,<br/> customer-facing app, SaaS, or<br/> anything you can imagine.</p>
+                        <!-- Long underline -->
+                        <div class="w-64 h-[2px] bg-gray-600 mt-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="bg-[#0B0911] text-gray-400 text-sm mt-16 p-10">
+        <div class="flex flex-col md:flex-row justify-between items-start max-w-6xl mx-auto">
+            <h2 class="text-gray-300 text-2xl font-bold">MISTECH</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6 md:mt-0">
+                <div>
+                    <h3 class="text-gray-300 font-semibold">Get Started</h3>
+                    <ul class="mt-3 space-y-2">
+                        <li><a href="#" class="hover:text-gray-200">Partner With Us</a></li>
+                        <li><a href="#" class="hover:text-gray-200">Make A Donation</a></li>
+                        <li><a href="#" class="hover:text-gray-200">Start An S.C.A Chapter</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-gray-300 font-semibold">About Us</h3>
+                    <ul class="mt-3 space-y-2">
+                        <li><a href="#" class="hover:text-gray-200">Meet The Team</a></li>
+                        <li><a href="#" class="hover:text-gray-200">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-gray-200">Terms And Condition</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-gray-300 font-semibold">Community</h3>
+                    <ul class="mt-3 space-y-2">
+                        <li><a href="#" class="hover:text-gray-200">Upcoming Events</a></li>
+                        <li><a href="#" class="hover:text-gray-200">Join Our Virtual Community</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="text-center text-gray-500 mt-10">© COPYRIGHT - MISTECH 2024</p>
+    </footer>
+</body>
+</html>
