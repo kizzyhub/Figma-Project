@@ -1,5 +1,9 @@
 # Figma-Project
 
+## Screenshot
+
+![Screenshot Description](Screenshot%20(17).png)
+
 **Figma design to code**
 
 This repository contains the HTML and CSS implementation of a design created in Figma. It is aimed at converting beautiful Figma designs into functional and responsive web pages.
